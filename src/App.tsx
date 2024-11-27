@@ -4,7 +4,7 @@ import About from './components/About'
 import Roadmap from './components/Roadmap'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
-import BackPic from './assets/backgroundPic.svg'
+// import BackPic from './assets/backgroundPic.svg'
 
 function App() {
  
