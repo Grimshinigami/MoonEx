@@ -1,6 +1,6 @@
 import RoadmapBackPic from '../assets/roadmapBackground.svg'
 import doubleTick from '../assets/doubleTick.svg'
-import lightningPic from '../assets/lightningPic.svg'
+// import lightningPic from '../assets/lightningPic.svg'
 
 function Roadmap() {
   return (

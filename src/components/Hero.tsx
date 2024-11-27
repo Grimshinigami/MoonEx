@@ -5,8 +5,7 @@ import { useEffect, useState } from "react";
 import threelineicon from '../assets/ThreeBarIcon.svg'
 import Nav_smaller from "./Nav_smaller";
 import MoonexLogo from '../assets/MoonexLogo.svg'
-import MoonexLogoText from '../assets/MoonexLogoText.svg'
-import Ellipse from "./Ellipse";
+// import MoonexLogoText from '../assets/MoonexLogoText.svg'
 import BackPic from '../assets/backgroundPic.svg'
 
 function Hero() {
@@ -15,9 +14,6 @@ function Hero() {
 
   const [show, setShow] = useState<boolean>(false)
   const [smaller, setsmaller] = useState<boolean>(size.width>768?false:true)
-
-  const [width, setWidth] = useState<number> (size.width)
-  const [height, setHeight] = useState<number> (size.width)
 
 
   useEffect(() => {

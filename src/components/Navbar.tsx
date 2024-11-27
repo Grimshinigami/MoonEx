@@ -1,6 +1,6 @@
 import Button from "./Button"
 import MoonexLogo from '../assets/MoonexLogo.svg'
-import MoonexLogoText from '../assets/MoonexLogoText.svg'
+// import MoonexLogoText from '../assets/MoonexLogoText.svg'
 
 function Navbar() {
 
