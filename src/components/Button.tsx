@@ -7,7 +7,7 @@ function Button({gradient=true,borderColor='none',textColor='black',text='Button
 
       useEffect(() => {
         if(gradient===true){
-          setClassString(str=> str+' bg-gradient-to-r from-[#E4B40D] to-[#FFE68F]')
+          setClassString(str=> str+' bg-gradient-to-r from-[#E4B40D] to-[#FFE68F] hover:to-[#fdd032] delay-100')
         }
 
         if(borderColor!=='none'){
@@ -18,7 +18,7 @@ function Button({gradient=true,borderColor='none',textColor='black',text='Button
           setClassString(str=> str+' text-black')
         }
         else {
-          setClassString(str=> str+` text-[#${textColor}]`)
+          setClassString(str=> str+` text-[#${textColor}] hover:brightness-[60%]`)
         }
 
       }, [])

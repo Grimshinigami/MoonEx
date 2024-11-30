@@ -37,7 +37,7 @@ function Hero() {
 
 
   return (
-    <div className=" w-full lg:pb-[80vh] bg-[#071624] bg-vpw bg-no-repeat" style={{backgroundImage: "url("+BackPic+")"}}>
+    <div id="Home" className=" w-full lg:pb-[80vh] pb-[20vh] bg-[#071624] bg-vpw bg-no-repeat z-50" style={{backgroundImage: "url("+BackPic+")"}}>
     {/* <div className='tester'> */}
       <Nav_smaller flag={show} fn={setShow} flag2={smaller}/>
       {!smaller && <Navbar/>}
@@ -72,7 +72,7 @@ function Hero() {
             <p>Trusted Multi-Chain <span className=" text-[#F9D423]">DEX</span> Platform</p>
           </div>
           <p className=" text-[#9E9E9E] md:text-base text-sm">Trade, earn and own crypto on the all-in-one multi-chain DEX</p>
-          <div className="  flex flex-row gap-6 font-raleway font-extrabold">
+          <div className="  flex flex-row gap-6 font-raleway font-extrabold z-50">
             <Button text="Connect Wallet"/>
             <Button gradient={false} borderColor="E4B40D" text="Trade Crypto" textColor="E4B40D"/>
           </div>

@@ -11,103 +11,105 @@ import Tile from './Tile'
 
 function About() {
   return (
-    <div className=" w-full bg-vpw bg-no-repeat flex flex-col z-10 gap-16 bg-[#071624]" 
+    <div className=" w-full md:bg-vpw max-md:bg-cover bg-no-repeat flex flex-col z-10 gap-16 bg-[#071624]" 
     style={{backgroundImage: "url("+aboutBackPic+")",backgroundColor: "rgba(0,0,0,0.2)"}}>
-      <div className=" text-3xl md:text-5xl lg:text-4xl lg:pl-40 flex w-[50%] font-neue z-50">
+      <div className=" text-2xl md:text-5xl lg:text-4xl pl-[7%] flex md:w-[50%] w-full font-neue z-50 pt-[10%]">
         <p className=' text-white'>Why <span className=" text-[#F9D423]">MoonEX</span>?</p>
       </div>
       <div className=' text-[#F0F0F0]/70 flex flex-wrap justify-center'>
         <table id="customers" className=' w-[90%] bg-white/5 rounded-md'>
-          <tr>
-            <th className=' border-r-[1px] border-[#D9D9D9]/10 text-2xl'>Comparisons</th>
-            <th className=' border-r-[1px] border-[#D9D9D9]/10 flex justify-center'>
-              <img 
-              src={moonexTable} 
-              className=' h-1/5 w-1/2'
-              alt="" />
-            </th>
-            <th className=''>
-              <img 
-              src={uniswapTable}
-              className=' mx-auto h-1/5 w-1/2'
-              alt="" />
-            </th>
-          </tr>
-          <tr>
-            <td>Point no one</td>
-            <td>
-              <img 
-              src={tickMark} 
-              className=' h-[7%] w-[7%] mx-auto'
-              alt="" />
-            </td>
-            <td>
-              <img 
-              src={crossMark} 
-              className=' h-[15%] w-[15%] mx-auto'
-              alt="" />
-            </td>
-          </tr>
-          <tr>
-            <td>Point no two this</td>
-            <td>
-            <img 
-              src={tickMark} 
-              className=' h-[7%] w-[7%] mx-auto'
-              alt="" />
-            </td>
-            <td>
-              <img 
-              src={crossMark} 
-              className=' h-[15%] w-[15%] mx-auto'
-              alt="" />
-            </td>
-          </tr>
-          <tr>
-            <td>Point no three this</td>
-            <td>
-            <img 
-              src={tickMark} 
-              className=' h-[7%] w-[7%] mx-auto'
-              alt="" />
-            </td>
-            <td>
-              <img 
-              src={crossMark} 
-              className=' h-[15%] w-[15%] mx-auto'
-              alt="" />
-            </td>
-          </tr>
-          <tr>
-            <td>Point no four this</td>
-            <td>
-            <img 
-              src={tickMark} 
-              className=' h-[7%] w-[7%] mx-auto'
-              alt="" />
-            </td>
-            <td>
-              <img 
-              src={crossMark} 
-              className=' h-[15%] w-[15%] mx-auto'
-              alt="" />
-            </td>
-          </tr>
-          <tr>
-            <td>Point no five this</td>
-            <td>
-            <img 
-              src={tickMark} 
-              className=' h-[7%] w-[7%] mx-auto'
-              alt="" />
-            </td>
-            <td>
-              <img 
-              src={crossMark} 
-              className=' h-[15%] w-[15%] mx-auto'
-              alt="" />
-            </td>
-          </tr>
+          <tbody>
+            <tr>
+              <th className=' border-r-[1px] border-[#D9D9D9]/10 text-sm md:text-base lg:text-2xl py-10'>Comparisons</th>
+              <th className=' border-r-[1px] border-[#D9D9D9]/10 '>
+                <img
+                src={moonexTable}
+                className=' md:h-1/5 md:w-1/2 mx-auto'
+                alt="" />
+              </th>
+              <th className=' '>
+                <img
+                src={uniswapTable}
+                className=' mx-auto md:h-1/5 md:w-1/2'
+                alt="" />
+              </th>
+            </tr>
+            <tr className=' text-xs md:text-sm lg:text-base'>
+              <td>Point no one</td>
+              <td>
+                <img
+                src={tickMark}
+                className=' md:h-[7%] md:w-[7%] mx-auto'
+                alt="" />
+              </td>
+              <td>
+                <img
+                src={crossMark}
+                className=' md:h-[15%] md:w-[15%] mx-auto'
+                alt="" />
+              </td>
+            </tr>
+            <tr className=' text-xs md:text-sm lg:text-base'>
+              <td>Point no two this</td>
+              <td>
+              <img
+                src={tickMark}
+                className=' md:h-[7%] md:w-[7%] mx-auto'
+                alt="" />
+              </td>
+              <td>
+                <img
+                src={crossMark}
+                className=' md:h-[15%] md:w-[15%] mx-auto'
+                alt="" />
+              </td>
+            </tr>
+            <tr className=' text-xs md:text-sm lg:text-base'>
+              <td>Point no three this</td>
+              <td>
+              <img
+                src={tickMark}
+                className=' md:h-[7%] md:w-[7%] mx-auto'
+                alt="" />
+              </td>
+              <td>
+                <img
+                src={crossMark}
+                className=' md:h-[15%] md:w-[15%] mx-auto'
+                alt="" />
+              </td>
+            </tr>
+            <tr className=' text-xs md:text-sm lg:text-base'>
+              <td>Point no four this</td>
+              <td>
+              <img
+                src={tickMark}
+                className=' md:h-[7%] md:w-[7%] mx-auto'
+                alt="" />
+              </td>
+              <td>
+                <img
+                src={crossMark}
+                className=' md:h-[15%] md:w-[15%] mx-auto'
+                alt="" />
+              </td>
+            </tr>
+            <tr className=' text-xs md:text-sm lg:text-base'>
+              <td>Point no five this</td>
+              <td>
+              <img
+                src={tickMark}
+                className=' md:h-[7%] md:w-[7%] mx-auto'
+                alt="" />
+              </td>
+              <td>
+                <img
+                src={crossMark}
+                className=' md:h-[15%] md:w-[15%] mx-auto'
+                alt="" />
+              </td>
+            </tr>
+          </tbody>
         </table>
       </div>
       <div className=' w-full flex flex-col'>

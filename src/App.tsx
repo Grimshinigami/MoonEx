@@ -15,10 +15,6 @@ function App() {
       <Roadmap/>
       <Faq/>
       <Footer/>
-      {/* <img src={BackPic}
-      // className=" w-full h-full z-10 relative lg:-top-[80vh] md:-top-[62vh] lgbt:-top-[83vh] -top-[54vh] "
-      className=" w-full h-full z-10 absolute"
-      alt="" /> */}
     </div>
   )
 }
